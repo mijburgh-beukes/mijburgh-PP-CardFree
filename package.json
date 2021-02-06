@@ -1,0 +1,40 @@
+{
+  "name": "mijburgh-pp-cardfree",
+  "version": "1.0.0",
+  "description": "A student project aming to build a golf scoring application",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tohora-2021/mijburgh-PP-CardFree.git"
+  },
+  "author": "Mijburgh Beukes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tohora-2021/mijburgh-PP-CardFree/issues"
+  },
+  "homepage": "https://github.com/tohora-2021/mijburgh-PP-CardFree#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.17",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.19.0",
+    "eslint-config-eda": "^0.1.4",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "webpack": "^5.21.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
